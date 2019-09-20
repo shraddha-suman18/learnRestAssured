@@ -26,8 +26,6 @@ public class ListUsers {
     @Test
     public void verifyTheCountOfUsersInPage(){
         Assert.assertEquals(json.getList("data").size(),6);
-
-        System.out.println(first.toString());
     }
 
     @Test
